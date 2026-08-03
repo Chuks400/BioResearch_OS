@@ -1,0 +1,30 @@
+project:
+  name: self-rag-reproduction-domain-adaptation
+  seed: 42
+
+model:
+  checkpoint: selfrag/selfrag_llama2_7b
+  max_new_tokens: 256
+  use_4bit: true
+
+retrieval:
+  index_path: data/index.json
+  top_k: 5
+  dense_weight: 0.35
+  bm25_weight: 0.65
+  embedding_dim: 384
+
+evaluation:
+  dataset: samples
+  model: selfrag_heuristic
+  output_path: results/evaluation.json
+
+domain_adaptation:
+  dataset: pubmed_qa
+  split: train
+  max_examples: 1000
+  output_corpus: data/pubmedqa_corpus.jsonl
+  output_index: data/pubmedqa_index.json
+
+demo:
+  share: false

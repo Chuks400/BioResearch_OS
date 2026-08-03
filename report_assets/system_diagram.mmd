@@ -1,0 +1,16 @@
+flowchart TD
+    A[User Question] --> B{Retrieve Needed?}
+    B -->|No Retrieve| C[Direct Generation]
+    B -->|Retrieve| D[Hybrid Retriever]
+    D --> E[Top-k Retrieved Passages]
+    E --> F[Self-RAG Generation]
+    C --> G[Reflection Critique]
+    F --> G
+    G --> H[Relevance Score]
+    G --> I[Support Score]
+    G --> J[Utility Score]
+    H --> K[Candidate Scoring]
+    I --> K
+    J --> K
+    K --> L[Best Answer Selection]
+    L --> M[Final Answer + Demo Evidence]

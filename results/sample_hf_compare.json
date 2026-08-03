@@ -1,0 +1,61 @@
+{
+  "dataset": "samples",
+  "count": 2,
+  "top_k": 5,
+  "systems": [
+    {
+      "name": "naive_rag",
+      "backend": "retrieval_only",
+      "exact_match": 0.0,
+      "f1": 0.13333333333333336,
+      "predictions": [
+        {
+          "question": "What does Self-RAG decide before retrieval?",
+          "prediction": "Self-RAG is a retrieval-augmented generation framework that teaches a language model to decide when to retrieve passages and to critique whether its answer is relevant, supported, and useful.",
+          "answers": [
+            "whether retrieval is needed",
+            "when to retrieve passages"
+          ],
+          "em": 0.0,
+          "f1": 0.2666666666666667
+        },
+        {
+          "question": "What domain dataset can be used for biomedical QA?",
+          "prediction": "It can be used as a domain adaptation corpus for biomedical retrieval-augmented generation experiments.",
+          "answers": [
+            "PubMedQA"
+          ],
+          "em": 0.0,
+          "f1": 0.0
+        }
+      ]
+    },
+    {
+      "name": "self_rag",
+      "backend": "hf",
+      "exact_match": 0.0,
+      "f1": 0.14285714285714285,
+      "predictions": [
+        {
+          "question": "What does Self-RAG decide before retrieval?",
+          "prediction": "[No Retrieval]Self-RAG decides whether to retrieve passages and whether its answer is relevant, supported, and useful. </s>",
+          "answers": [
+            "whether retrieval is needed",
+            "when to retrieve passages"
+          ],
+          "em": 0.0,
+          "f1": 0.2857142857142857
+        },
+        {
+          "question": "What domain dataset can be used for biomedical QA?",
+          "prediction": "[No Retrieval]Use reflection tokens or , or , and through , then answer concisely. </s>",
+          "answers": [
+            "PubMedQA"
+          ],
+          "em": 0.0,
+          "f1": 0.0
+        }
+      ]
+    }
+  ]
+}
