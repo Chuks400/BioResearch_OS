@@ -1,6 +1,6 @@
 {
   "title": "BioResearch OS: Self-Reflective Retrieval-Augmented Generation for Biomedical Research",
-  "description": "BioResearch OS is a university software engineering research project implementing and evaluating a Self-RAG-style biomedical question answering pipeline. It combines hybrid BM25 and hash-based dense retrieval, reflection-token parsing, evidence critique, a Python inference and evaluation backend, and a Next.js research interface with a Gradio demonstration. The software archive contains the project source code and a small technical demonstration corpus; third-party biomedical datasets and derived outputs, model weights, screenshots, and coursework deliverables are not included. The repository documents the original research sources and how to rebuild the biomedical corpus and retrieval index. This is a research prototype, not a clinical decision-support system.",
+  "description": "BioResearch OS is a university software engineering research project implementing and evaluating a Self-RAG-style biomedical question answering pipeline. It combines hybrid BM25 and hash-based dense retrieval, reflection-token parsing, evidence critique, a Python inference and evaluation backend, and a Next.js research interface with a Gradio demonstration. The software archive contains the project source code and a small technical demonstration corpus; third-party biomedical datasets and derived outputs, model weights, screenshots, and coursework deliverables are not included. The repository documents the original research sources and how to rebuild the biomedical corpus and retrieval index. This is a research prototype, not a clinical decision-support system. Copyright in the original software is reserved by the named copyright holders. The public archive is provided for scholarly reference and citation. Access does not grant an open-source license or permission to commercially exploit, modify, or redistribute the original software; applicable law and third-party licenses remain unaffected. See the included LICENSE file.",
   "creators": [
     {
       "name": "Abubakar, Bala Muhammad",
@@ -30,5 +30,8 @@
     "software engineering",
     "Python",
     "Next.js"
-  ]
+  ],
+  "version": "1.0.0",
+  "access_right": "open",
+  "license": "other-closed"
 }
