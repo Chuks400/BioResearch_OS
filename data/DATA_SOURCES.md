@@ -93,5 +93,12 @@ National Center for Biotechnology Information (NCBI), U.S. National Library of M
 **URL:** https://pubmed.ncbi.nlm.nih.gov/
 **Operator:** NCBI / U.S. National Library of Medicine
 
-PubMed abstracts are in the public domain under the NLM copyright policy.
+The National Library of Medicine does not claim copyright in PubMed abstracts;
+however, the original authors or publishers may hold copyright. Public access
+does not establish unrestricted redistribution rights. Review the applicable
+rights before reproducing or redistributing any abstracts.
 See: https://www.ncbi.nlm.nih.gov/home/about/policies/
+
+Source-only archives of this project exclude the PubMedQA corpus, derived
+index, biomedical demo data, and biomedical evaluation outputs. Retrieve
+PubMedQA from its original source and regenerate the index for reproduction.

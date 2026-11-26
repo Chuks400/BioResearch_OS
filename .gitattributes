@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Source-only archival release: preserve original files in Git but omit
+# third-party biomedical text, derived outputs, course materials and caches.
+/data/pubmedqa_*.json* export-ignore
+/data/biomedical_demo_*.json* export-ignore
+/results/pubmedqa_*.json export-ignore
+/deliverables export-ignore
+/report_assets export-ignore
+__pycache__ export-ignore
+*.pyc export-ignore

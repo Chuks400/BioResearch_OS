@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use BioResearch OS, please cite this software."
+title: "BioResearch OS: Self-Reflective Retrieval-Augmented Generation for Biomedical Research"
+type: software
+authors:
+  - family-names: Abubakar
+    given-names: Bala Muhammad
+    affiliation: Zhejiang University of Technology
+  - family-names: Chukwu
+    given-names: John Okike
+    affiliation: Zhejiang University of Technology
+    orcid: "https://orcid.org/0009-0003-3268-6190"
+repository-code: "https://github.com/Chuks400/BioResearch_OS"
+keywords:
+  - biomedical question answering
+  - retrieval-augmented generation
+  - Self-RAG
+  - information retrieval
+  - natural language processing

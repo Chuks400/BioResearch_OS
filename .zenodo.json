@@ -1,0 +1,34 @@
+{
+  "title": "BioResearch OS: Self-Reflective Retrieval-Augmented Generation for Biomedical Research",
+  "description": "BioResearch OS is a university software engineering research project implementing and evaluating a Self-RAG-style biomedical question answering pipeline. It combines hybrid BM25 and hash-based dense retrieval, reflection-token parsing, evidence critique, a Python inference and evaluation backend, and a Next.js research interface with a Gradio demonstration. The software archive contains the project source code and a small technical demonstration corpus; third-party biomedical datasets and derived outputs, model weights, screenshots, and coursework deliverables are not included. The repository documents the original research sources and how to rebuild the biomedical corpus and retrieval index. This is a research prototype, not a clinical decision-support system.",
+  "creators": [
+    {
+      "name": "Abubakar, Bala Muhammad",
+      "affiliation": "Zhejiang University of Technology"
+    },
+    {
+      "name": "Chukwu, John Okike",
+      "affiliation": "Zhejiang University of Technology",
+      "orcid": "0009-0003-3268-6190"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Zhang, Yuchen",
+      "type": "Supervisor"
+    }
+  ],
+  "upload_type": "software",
+  "language": "eng",
+  "keywords": [
+    "biomedical question answering",
+    "retrieval-augmented generation",
+    "Self-RAG",
+    "artificial intelligence",
+    "information retrieval",
+    "natural language processing",
+    "software engineering",
+    "Python",
+    "Next.js"
+  ]
+}

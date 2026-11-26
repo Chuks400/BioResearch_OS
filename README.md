@@ -104,6 +104,34 @@ BioResearch_OS/
 
 ---
 
+## Source archive and reproducibility
+
+The Zenodo-ready source archive contains the project software and technical
+sample data. The original GitHub repository retains the coursework deliverables,
+screenshots, biomedical datasets and derived evaluation outputs; those materials
+are excluded from the source archive because their redistribution rights may
+differ from the project software.
+
+For a quick local test after installing the dependencies, use the included
+technical sample index:
+
+```bash
+python -m model.inference --backend heuristic --index data/sample_index.json --query "What does Self-RAG decide before retrieval?"
+```
+
+To reproduce the biomedical experiments, obtain PubMedQA under its applicable
+terms and regenerate the corpus and index using the included script:
+
+```bash
+python -m domain_adaptation.build_domain_index --output-corpus data/pubmedqa_corpus.jsonl --output-index data/pubmedqa_index.json --max-examples 1000
+```
+
+See `data/DATA_SOURCES.md` for upstream attribution and rights information.
+This academic prototype is not a clinical decision-support tool. Citation
+metadata is provided in `CITATION.cff` and `.zenodo.json`.
+
+---
+
 ## Quick Start (CPU -- no GPU required)
 
 ```powershell
