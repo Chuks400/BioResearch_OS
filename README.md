@@ -3,7 +3,7 @@
 **Self-Reflective Retrieval-Augmented Generation for Biomedical Research**
 
 Final Year Software Engineering Project | 2025-2026
-Bala Muhammad Abubakar (312023705021) | Chukwu John Okike (312023704038)
+Bala Muhammad Abubakar | Chukwu John Okike
 Supervisor: Yuchen Zhang
 
 ---
