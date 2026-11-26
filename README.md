@@ -255,3 +255,10 @@ exact term overlap is insufficient.
   url     = {https://aclanthology.org/D19-1259}
 }
 ```
+
+
+---
+
+## Copyright and rights
+
+All rights reserved for the original BioResearch OS software. The archive is publicly accessible for scholarly reference and citation; no open-source license is granted. See `LICENSE` for the rights notice. Third-party rights and licenses remain unaffected.
